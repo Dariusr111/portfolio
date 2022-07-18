@@ -1,0 +1,54 @@
+//-----------importuoto failo stiliai----------------//
+//1-reseto scss
+//2-kintamieji
+//3-mixin ir sablonai
+
+@import 'test.scss';
+
+@import 'kintamieji.scss'; //kintamieji
+//@import 'mixin.scss'; //kintamieji
+
+
+//-------------kintamieji--------------//
+//$h2 check sintakse//
+
+
+//------sablonai----------//
+
+%mygtukas {
+    //sablonas
+    border-bottom: 5px dashed red;
+}
+
+//------------mix_in---------------//
+
+@mixin fontz($f, $c) {   //funkcija su kintamaisiais
+    font-size: $f;
+    color: $c;
+}
+
+
+//-----------mano stiliai-------------//
+
+.a {
+    text-decoration: none;
+}
+
+
+.body {
+    background-color: red;
+    max-width: 1200px;
+    margin: 0 auto;
+    @extend %mygtukas; //su sablonu, ir nera kintamuju
+    @include fontz(13, green); //ateina su mixin, yra kintamuju, arba kaip nauja faila includinti
+
+    .section {
+        font-size: 12px;
+
+        color: green;
+
+        .H1 {
+            color: blue;
+        }
+    }
+}
