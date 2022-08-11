@@ -620,7 +620,7 @@ li {
   .hamburger {
     display: flex;
     flex-direction: column;
-    padding-right: 0px;
+    padding-right: 40px;
     padding-bottom: 7px;
   }
   .bar {
@@ -689,29 +689,6 @@ li {
   h1 {
     font-size: calc(30px + 2.5vw);
   }
-  .project1 {
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    margin-top: 138px;
-    margin-left: 0px;
-    box-shadow: 0px 0px 12px #FFFFFF;
-    border-radius: 50px 0px;
-    padding-top: 24px;
-    padding-left: 24px;
-  }
-  .project1 .button2 {
-    margin-left: 133px;
-  }
-  .foto1 {
-    padding-top: 1px;
-    padding-left: 0px;
-    padding-bottom: 16px;
-    margin-right: 0px;
-  }
-  .foto1 img {
-    width: 100%;
-  }
   .project23 {
     flex-direction: column;
   }
@@ -741,5 +718,127 @@ li {
   }
   .addit_in2 {
     flex-direction: column;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .hero .title {
+    padding-top: 162px;
+  }
+  .hero .content-text {
+    width: 65%;
+    padding-top: 69px;
+    padding-bottom: 48px;
+    padding-left: 0px;
+  }
+  .title2 {
+    margin-left: 33%;
+  }
+  .project1 {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-left: 35px;
+    padding-left: 20px;
+  }
+  .project1 .button2 {
+    margin-left: 28%;
+  }
+  .foto1 {
+    padding-right: 17px;
+    padding-bottom: 10px;
+  }
+  .foto1 img {
+    width: 100%;
+  }
+  .content1 h3 {
+    padding-left: 32%;
+    padding-bottom: 50px;
+  }
+  .content1 p {
+    padding-left: 10px;
+  }
+  .project2 {
+    width: 90%;
+    margin-left: 35px;
+  }
+  .project2 h3 {
+    padding-top: 70px;
+    padding-left: 168px;
+  }
+  .loc_1 {
+    margin-left: 30%;
+  }
+  .xx {
+    width: 96%;
+  }
+  .project3 {
+    width: 90%;
+    margin-left: 30px;
+  }
+  .project3 h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 88.5%;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-left: 137px;
+  }
+  .project3 p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-top: 49px;
+    padding-left: 0px;
+    width: 480px;
+  }
+  .loc_2 {
+    margin-left: 32%;
+  }
+  .skills {
+    margin-bottom: -27px;
+  }
+  .skills h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(8px + 2.5vw);
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-left: 19px;
+  }
+  .skills p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-right: 225px;
+  }
+  .inline {
+    display: flex;
+  }
+  .graph {
+    width: calc(90% + 2.5vw);
+  }
+  .width_880 {
+    width: calc(80% + 2.5vw);
+  }
+  .width_585 {
+    width: calc(60% + 2.5vw);
+  }
+  .width_290 {
+    width: calc(40% + 2.5vw);
   }
 }/*# sourceMappingURL=style.css.map */
