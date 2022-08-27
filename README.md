@@ -7,4 +7,5 @@
 
 You can find project here: [Portfolio project](https://dariusr111.github.io/portfolio/)
 
-![screencapture-127-0-0-1-5500-portfolio-index-html-2022-08-27-21_41_44](https://user-images.githubusercontent.com/106965568/187043923-6cc4d5ad-90da-4186-b71c-b2d0d381819d.png)
+![screencapture-127-0-0-1-5500-portfolio-index-html-2022-08-27-21_56_35](https://user-images.githubusercontent.com/106965568/187044349-e2dfcb56-47a5-4b2a-8434-61d17a87b695.png)
+
